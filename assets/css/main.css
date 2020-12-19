@@ -7,6 +7,14 @@
 	font-weight:normal;
 	font-style:normal;
 }
+
+
+@font-face{
+	font-family:"고려대학교서체";
+	src:url("assets\fonts\고려대학교서체.ttf");
+	font-weight:normal;
+	font-style:normal;
+}
 /*
 	Transitive by TEMPLATED
 	templated.co @templatedco
@@ -3082,7 +3090,7 @@
 		.wrapper.style3 {
 			background-color: #000;
 			color: #bfbfbf;
-			background-image: url(../../images/bg.jpg);
+			background-image: url(../../images/banner.jpg);
 			background-size: cover;
 			background-attachment: fixed;
 			background-position: center;
@@ -3701,6 +3709,7 @@
 
 /* Banner */
 
+	
 	#banner {
 		display: -ms-flexbox;
 		-ms-flex-pack: center;
@@ -3855,6 +3864,35 @@
 
 		body.is-loading #banner:before {
 			opacity: 1;
+		}
+
+
+	#banner2{
+		padding: 12px;
+		text-align: center;
+		background: #870D19;
+		color: white;
+		font-size: 24px;
+	}
+
+		#banner2 .inner {
+			-moz-transform: scale(1.0);
+			-webkit-transform: scale(1.0);
+			-ms-transform: scale(1.0);
+			transform: scale(1.0);
+			-moz-transition: opacity 1s ease, -moz-transform 1s ease;
+			-webkit-transition: opacity 1s ease, -webkit-transform 1s ease;
+			-ms-transition: opacity 1s ease, -ms-transform 1s ease;
+			transition: opacity 1s ease, transform 1s ease;
+			opacity: 1  ;
+			position: relative;
+			z-index: 2;
+		}
+
+		#banner2 h1 {
+			font-size: 3rem;
+			font-family: "고려대학교서체";
+			color: #ffffff;
 		}
 
 /* Main */
