@@ -3887,12 +3887,12 @@
 		background-position: center;
 		background-repeat: no-repeat;
 		border-top: 0;
-		min-height: 100vh;
-		height: 100vh !important;
+		min-height: 10vh;
+		height:s 10vh !important;
 		width: 100%;
 		position: relative;
 		text-align: center;
-		overflow: hidden;
+		overflow: hidden; 
 	}
 
 		#banner2 .inner {
